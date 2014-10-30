@@ -1,0 +1,1 @@
+![Alt text](/../draggableMeIntoZone/https://raw.githubusercontent.com/wangx6/draggableMeIntoZone/master/img/screenshot.jpg?raw=true)
