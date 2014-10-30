@@ -25,16 +25,16 @@
         blk.mousemove(function( e ){
             var w = blk.width();
             if( e.which === 1 || e.buttons === 1 ){
-                $(this).addClass('tilt').css({
+                blk.addClass('tilt').css({
                     left : e.pageX - w/2 - 10,
                     top  : e.pageY - 40
                 });
             }
         }).mouseup(function(){
             var
-            co = getCenterCo($(this)),
+            co = getCenterCo( blk ),
             v = Math.floor( co.x / getWidth() / ( 1/ numberOfGrid ) ) * 1/numberOfGrid * 100;
-            $(this).removeClass('tilt').css({ top: 0, left: v+'%' });
+            blk.removeClass('tilt').css({ top: 0, left: v+'%' });
         });
     });
 
