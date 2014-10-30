@@ -17,7 +17,7 @@ h3{
 }
 .grid{
     box-sizing:border-box;
-    border:1px dashed #eee;
+    border:1px dashed #ccc;
     min-height:500px;
     float:left;
     background-color:#fff;
