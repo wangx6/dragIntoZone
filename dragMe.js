@@ -8,6 +8,60 @@
     grid = null,
     blk = null,
     numberOfGrid = 0,
+    // testInfo = [
+    //     {
+    //         group : 1;
+    //         title : 'title 11',
+    //         content : 'content 11'
+    //     }
+    //     {
+    //         group : 1;
+    //         title : 'title 12',
+    //         content : 'content 12'
+    //     }
+    //     {
+    //         group : 2;
+    //         title : 'title 21',
+    //         content : 'content 21'
+    //     }
+    //     {
+    //         group : 2;
+    //         title : 'title 22',
+    //         content : 'content 22'
+    //     }
+    //     {
+    //         group : 2;
+    //         title : 'title 23',
+    //         content : 'content 23'
+    //     }
+    //     {
+    //         group : 2;
+    //         title : 'title 24',
+    //         content : 'content 24'
+    //     }
+    //     {
+    //         group : 2;
+    //         title : 'title 25',
+    //         content : 'content 25'
+    //     }
+    //     {
+    //         group : 3;
+    //         title : 'title 31',
+    //         content : 'content 31'
+    //     }
+    //     {
+    //         group : 3;
+    //         title : 'title 32',
+    //         content : 'content 32'
+    //     }
+    //     {
+    //         group : 3;
+    //         title : 'title 33',
+    //         content : 'content 33'
+    //     }
+    // ],
+
+
     getWidth = function(){ return $('body').width(); },
     getCenterCo = function( obj ){
         var pos = obj.offset();
