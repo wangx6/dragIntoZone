@@ -17,7 +17,7 @@
     grid.css({ width: 1/numberOfGrid * 100 + '%' });
     blk.css({ width: 1/numberOfGrid * 100 + '%' });
     
-    $('.blk').mousemove(function( e ){
+    blk.mousemove(function( e ){
         var w = blk.width();
         if( e.which === 1 || e.buttons === 1 ){
             $(this).addClass('tilt').css({
