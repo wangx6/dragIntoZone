@@ -1,4 +1,9 @@
-h3,p{
+body{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+h3,p,div{
     margin:0;
     padding: 0;
     font-family: arial,sans-serif;
@@ -8,30 +13,37 @@ h3{
     border-bottom: 1px solid #ccc;
     padding-bottom: 5px;
     margin-bottom: 5px;
+    text-transform: capitalize;
 }
 .wrap{
     background-color:transparent;
-    position:relative;
     width:100%;
     min-height:300px;
 }
 .grid{
     box-sizing:border-box;
     border:1px dashed #ccc;
+    width:300px;
     min-height:500px;
     float:left;
     background-color:#fff;
 }
-.blk{
-    position:absolute;
-    background-color:#666;
-    color:#fff;
-    border-radius: 7px;
-    padding:10px;
-    box-sizing:border-box;
+
+
+.item-wrap{
+    position: absolute;
+    width:300px;
+    padding: 10px;
+    background-color:#efefef;
+    color:#333;
+    border-radius: 4px;
     transition: all .3s;
+    box-sizing:border-box;
+    margin-bottom: 10px;
+    border:1px solid #666;
 }
 .tilt{
+    position: absolute;
     cursor:move;
     transition: none;
     -ms-transform: rotate(10deg);
@@ -43,4 +55,5 @@ h3{
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    box-shadow: 0 0 14px #000;
 }
