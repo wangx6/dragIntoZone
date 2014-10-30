@@ -1,0 +1,38 @@
+h3,p{
+    margin:0;
+    padding: 0;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+}
+h3{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+}
+.wrap{
+    background-color:transparent;
+    position:relative;
+    width:100%;
+    min-height:300px;
+}
+.grid{
+    box-sizing:border-box;
+    border:1px dashed #eee;
+    min-height:500px;
+    float:left;
+    background-color:#fff;
+}
+.blk{
+    position:absolute;
+    background-color:#666;
+    color:#fff;
+    border-radius: 7px;
+    padding:10px;
+    box-sizing:border-box;
+}
+.tilt{
+    cursor:move;
+    -ms-transform: rotate(10deg);
+    -webkit-transform: rotate(10deg);
+    transform: rotate(10deg);
+}
